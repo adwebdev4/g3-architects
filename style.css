@@ -92,6 +92,13 @@
 }
 
 
+/* main section style  */
+mian {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 /* responsive media query  */
 
 @media screen and (max-width: 576px) {
@@ -100,4 +107,10 @@
     .nav-links {
         flex-direction: column;
     }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+
 }
