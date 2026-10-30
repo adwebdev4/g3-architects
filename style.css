@@ -256,6 +256,21 @@ main>section {
     filter: grayscale(100%);
 }
 
+footer {
+    max-width: 1440px;
+    margin: 50px auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+footer p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
 /* responsive Mobile media query  */
 
 @media screen and (max-width: 576px) {
